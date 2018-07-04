@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Main.py">
+      <file leaf-file-name="1-variables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/1-variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="60">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7-funciones.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/7-funciones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -47,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6-for.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6-for.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/6-for.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="59">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -83,12 +92,13 @@
         <option value="$PROJECT_DIR$/venv/3-operadore-logicos.py" />
         <option value="$PROJECT_DIR$/venv/5-while.py" />
         <option value="$PROJECT_DIR$/venv/6-for.py" />
+        <option value="$PROJECT_DIR$/venv/7-funciones.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="611" />
-    <option name="y" value="79" />
+    <option name="x" value="630" />
+    <option name="y" value="62" />
     <option name="width" value="775" />
     <option name="height" value="509" />
   </component>
@@ -131,26 +141,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6-for">
-    <configuration name="2_entrada_datos" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/2_entrada_datos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="3-operadore-logicos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.7-funciones">
+    <configuration name="1-variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,25 +154,25 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/3-operadore-logicos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/1-variables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="4-if" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2_entrada_datos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/4-if.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/2_entrada_datos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,20 +214,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="7-funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/7-funciones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.2_entrada_datos" />
-      <item itemvalue="Python.4-if" />
-      <item itemvalue="Python.3-operadore-logicos" />
       <item itemvalue="Python.5-while" />
       <item itemvalue="Python.6-for" />
+      <item itemvalue="Python.1-variables" />
+      <item itemvalue="Python.2_entrada_datos" />
+      <item itemvalue="Python.7-funciones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7-funciones" />
+        <item itemvalue="Python.2_entrada_datos" />
+        <item itemvalue="Python.1-variables" />
         <item itemvalue="Python.6-for" />
         <item itemvalue="Python.5-while" />
-        <item itemvalue="Python.3-operadore-logicos" />
-        <item itemvalue="Python.4-if" />
-        <item itemvalue="Python.2_entrada_datos" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +263,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="79" width="775" height="509" extended-state="0" />
+    <frame x="678" y="138" width="775" height="509" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2522639" />
@@ -301,13 +311,6 @@
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/2_entrada_datos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -338,8 +341,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/6-for.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="59">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/1-variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/7-funciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
