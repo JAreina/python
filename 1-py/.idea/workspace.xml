@@ -11,65 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1-variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/1-variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7-funciones.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/7-funciones.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_entrada_datos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/2_entrada_datos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4-if.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/4-if.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5-while.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/5-while.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6-for.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/6-for.py">
+      <file leaf-file-name="8_tuplas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/8_tuplas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-operadore-logicos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/3-operadore-logicos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="15" column="12" lean-forward="true" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -93,12 +39,14 @@
         <option value="$PROJECT_DIR$/venv/5-while.py" />
         <option value="$PROJECT_DIR$/venv/6-for.py" />
         <option value="$PROJECT_DIR$/venv/7-funciones.py" />
+        <option value="$PROJECT_DIR$/venv/tuplas.py" />
+        <option value="$PROJECT_DIR$/venv/8_tuplas.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
-    <option name="y" value="62" />
+    <option name="x" value="510" />
+    <option name="y" value="123" />
     <option name="width" value="775" />
     <option name="height" value="509" />
   </component>
@@ -141,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7-funciones">
+  <component name="RunManager" selected="Python.8_tuplas">
     <configuration name="1-variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,24 +121,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/2_entrada_datos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="5-while" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/5-while.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,20 +162,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="8_tuplas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/8_tuplas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.5-while" />
       <item itemvalue="Python.6-for" />
       <item itemvalue="Python.1-variables" />
       <item itemvalue="Python.2_entrada_datos" />
       <item itemvalue="Python.7-funciones" />
+      <item itemvalue="Python.8_tuplas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8_tuplas" />
         <item itemvalue="Python.7-funciones" />
         <item itemvalue="Python.2_entrada_datos" />
         <item itemvalue="Python.1-variables" />
         <item itemvalue="Python.6-for" />
-        <item itemvalue="Python.5-while" />
       </list>
     </recent_temporary>
   </component>
@@ -263,13 +211,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="678" y="138" width="775" height="509" extended-state="0" />
+    <frame x="510" y="123" width="775" height="509" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2522639" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2522639" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -318,17 +266,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/3-operadore-logicos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/4-if.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/7-funciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/1-variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -346,17 +301,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/1-variables.py">
+    <entry file="file://$PROJECT_DIR$/venv/3-operadore-logicos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/7-funciones.py">
+    <entry file="file://$PROJECT_DIR$/venv/8_tuplas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="59">
+          <caret line="15" column="12" lean-forward="true" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
