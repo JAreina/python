@@ -19,3 +19,19 @@ print(tupla3[2])
 print(tupla3[3])
 
 #tupla[0] = 22 #error no se puede asignar nuevaente
+
+print('************************ \n')
+
+def enviar():
+    nombre = "JAreina"
+    correo = 'correo@correo.com'
+    ciudad = 'Madrid'
+    return (nombre,correo,ciudad)
+
+def mostrar(tupla):
+    for dato in range(0,tupla.__len__()) :
+        print(tupla[dato])
+
+
+tupla = enviar()
+mostrar(tupla)
