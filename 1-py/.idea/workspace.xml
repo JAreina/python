@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be70c6e6-dd7f-4d4c-8651-f210d5929546" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PY_10_diccionarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PY_11_funciones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PY_10_diccionarios.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PY_10_diccionarios.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/PY_10_diccionarios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="165">
               <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PY_11_funciones.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PY_11_funciones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,12 +79,13 @@
         <option value="$PROJECT_DIR$/venv/8_tuplas.py" />
         <option value="$PROJECT_DIR$/venv/PY_9_listas.py" />
         <option value="$PROJECT_DIR$/venv/PY_10_diccionarios.py" />
+        <option value="$PROJECT_DIR$/venv/PY_11_funciones.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="54" />
+    <option name="x" value="572" />
+    <option name="y" value="74" />
     <option name="width" value="775" />
     <option name="height" value="509" />
   </component>
@@ -116,25 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PY_10_diccionarios">
-    <configuration name="2_entrada_datos" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_2_entrada_datos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.PY_11_funciones">
     <configuration name="7-funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +184,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="PY_11_funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_11_funciones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="PY_9_listas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,19 +221,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.2_entrada_datos" />
       <item itemvalue="Python.7-funciones" />
       <item itemvalue="Python.8_tuplas" />
       <item itemvalue="Python.PY_9_listas" />
       <item itemvalue="Python.PY_10_diccionarios" />
+      <item itemvalue="Python.PY_11_funciones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PY_11_funciones" />
         <item itemvalue="Python.PY_10_diccionarios" />
         <item itemvalue="Python.PY_9_listas" />
         <item itemvalue="Python.8_tuplas" />
         <item itemvalue="Python.7-funciones" />
-        <item itemvalue="Python.2_entrada_datos" />
       </list>
     </recent_temporary>
   </component>
@@ -242,17 +255,24 @@
       <option name="project" value="LOCAL" />
       <updated>1530801307220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="diccionarios">
+      <created>1530802406215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802406215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="103" width="775" height="509" extended-state="0" />
+    <frame x="572" y="74" width="775" height="509" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2988357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30677292" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32587063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34564644" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -292,7 +312,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="listas" />
-    <option name="LAST_COMMIT_MESSAGE" value="listas" />
+    <MESSAGE value="diccionarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="diccionarios" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/PY_8_tuplas.py">
@@ -370,8 +391,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_10_diccionarios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="165">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_11_funciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
