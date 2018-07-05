@@ -14,8 +14,10 @@ class Clase:
               ' AÑO: {}'.format(this.hecho,this.objetivo,this.anio)
         print(obj)
 
+#fin de la clase
 
-si = Clase()
+
+si = Clase()  # instanciar un objeto de la clase
 print(si.objetivo)
 
 anioo = si.__getattribute__("anio")
