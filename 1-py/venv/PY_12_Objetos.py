@@ -12,7 +12,7 @@ class Clase:
     def mostrar(this):
         obj = ' HECHO : {}, OBJETIVO: {}' \
               ' AÑO: {}'.format(this.hecho,this.objetivo,this.anio)
-        print(obj)
+        return obj
 
 #fin de la clase
 
@@ -25,4 +25,4 @@ print(anioo)
 
 
 
-si.mostrar()
+print(si.mostrar())
