@@ -25,3 +25,5 @@ juan.empezar()
 
 print(juan.ok)
 print(juan.terminar())
+a = juan.ok =False
+print(a)
