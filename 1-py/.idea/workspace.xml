@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be70c6e6-dd7f-4d4c-8651-f210d5929546" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PY_14_constructor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2018-07-python-juan.ctb" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-07-python-juan.ctb" afterDir="false" />
     </list>
@@ -18,44 +17,26 @@
       <file leaf-file-name="PY_12_Objetos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/PY_12_Objetos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="95">
+              <caret line="27" column="19" lean-forward="true" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PY_13_metodos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/PY_13_metodos.py">
+      <file leaf-file-name="PY_15_HERENCIA.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PY_15_HERENCIA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="9" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="140">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PY_14_constructor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PY_14_constructor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/PY_14_constructor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="24" column="20" lean-forward="true" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PY_2_entrada_datos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/PY_2_entrada_datos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PY_1-variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/PY_1-variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="38" />
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -91,12 +72,13 @@
         <option value="$PROJECT_DIR$/venv/PY_12_Objetos.py" />
         <option value="$PROJECT_DIR$/venv/PY_13_metodos.py" />
         <option value="$PROJECT_DIR$/venv/PY_14_constructor.py" />
+        <option value="$PROJECT_DIR$/venv/PY_15_HERENCIA.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="y" value="186" />
+    <option name="x" value="523" />
+    <option name="y" value="95" />
     <option name="width" value="775" />
     <option name="height" value="509" />
   </component>
@@ -140,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PY_14_constructor">
+  <component name="RunManager" selected="Python.PY_15_HERENCIA">
     <configuration name="PY_10_diccionarios" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,24 +136,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_10_diccionarios.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="PY_11_funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_11_funciones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,20 +195,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="PY_15_HERENCIA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_15_HERENCIA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.PY_10_diccionarios" />
-      <item itemvalue="Python.PY_11_funciones" />
       <item itemvalue="Python.PY_12_Objetos" />
       <item itemvalue="Python.PY_13_metodos" />
       <item itemvalue="Python.PY_14_constructor" />
+      <item itemvalue="Python.PY_15_HERENCIA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PY_15_HERENCIA" />
         <item itemvalue="Python.PY_14_constructor" />
         <item itemvalue="Python.PY_10_diccionarios" />
         <item itemvalue="Python.PY_13_metodos" />
         <item itemvalue="Python.PY_12_Objetos" />
-        <item itemvalue="Python.PY_11_funciones" />
       </list>
     </recent_temporary>
   </component>
@@ -315,11 +297,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530946487071</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="constructor __init__">
+      <created>1530946898468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530946898468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="herencia">
+      <created>1530947574157</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1530947574157</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="557" y="186" width="775" height="509" extended-state="0" />
+    <frame x="523" y="95" width="775" height="509" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30677292" />
@@ -369,7 +365,9 @@
     <MESSAGE value="import, from , def" />
     <MESSAGE value="objetos, clases, metodos, funciones" />
     <MESSAGE value="self , metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="self , metodos" />
+    <MESSAGE value="constructor __init__" />
+    <MESSAGE value="herencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="herencia" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/PY_12_Objetos.py">
@@ -481,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/PY_12_Objetos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_13_metodos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -495,10 +486,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_12_Objetos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="27" column="19" lean-forward="true" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_14_constructor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="24" column="20" lean-forward="true" selection-end-line="24" selection-end-column="20" />
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_15_HERENCIA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
