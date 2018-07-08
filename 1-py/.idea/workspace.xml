@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be70c6e6-dd7f-4d4c-8651-f210d5929546" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PY_16_ARCHIVOS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/nuevo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-07-python-juan.ctb" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-07-python-juan.ctb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,18 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PY_16_ARCHIVOS.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PY_16_ARCHIVOS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/PY_16_ARCHIVOS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="165">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nuevo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/nuevo">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="PY_17_ARCHIVOS_XML.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/nuevo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="PY_14_constructor.py" pinned="false" current-in-tab="false">
@@ -88,14 +103,16 @@
         <option value="$PROJECT_DIR$/venv/PY_14_constructor.py" />
         <option value="$PROJECT_DIR$/venv/PY_15_HERENCIA.py" />
         <option value="$PROJECT_DIR$/venv/PY_16_ARCHIVOS.py" />
+        <option value="$PROJECT_DIR$/venv/nuevo.xml" />
+        <option value="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="61" />
+    <option name="x" value="531" />
+    <option name="y" value="184" />
     <option name="width" value="775" />
-    <option name="height" value="509" />
+    <option name="height" value="477" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PY_16_ARCHIVOS">
+  <component name="RunManager" selected="Python.PY_17_ARCHIVOS_XML">
     <configuration name="PY_10_diccionarios" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,24 +168,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_10_diccionarios.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="PY_13_metodos" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_13_metodos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,20 +227,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="PY_17_ARCHIVOS_XML" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.PY_10_diccionarios" />
-      <item itemvalue="Python.PY_13_metodos" />
       <item itemvalue="Python.PY_14_constructor" />
       <item itemvalue="Python.PY_15_HERENCIA" />
       <item itemvalue="Python.PY_16_ARCHIVOS" />
+      <item itemvalue="Python.PY_17_ARCHIVOS_XML" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PY_17_ARCHIVOS_XML" />
         <item itemvalue="Python.PY_16_ARCHIVOS" />
         <item itemvalue="Python.PY_15_HERENCIA" />
         <item itemvalue="Python.PY_14_constructor" />
         <item itemvalue="Python.PY_10_diccionarios" />
-        <item itemvalue="Python.PY_13_metodos" />
       </list>
     </recent_temporary>
   </component>
@@ -326,17 +343,24 @@
       <option name="project" value="LOCAL" />
       <updated>1530947574157</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="abrir, leer, escribir, ficheros">
+      <created>1531030883791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531030883791</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="61" width="775" height="509" extended-state="0" />
+    <frame x="531" y="184" width="775" height="477" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30677292" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34564644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3775216" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,7 +406,8 @@
     <MESSAGE value="self , metodos" />
     <MESSAGE value="constructor __init__" />
     <MESSAGE value="herencia" />
-    <option name="LAST_COMMIT_MESSAGE" value="herencia" />
+    <MESSAGE value="abrir, leer, escribir, ficheros" />
+    <option name="LAST_COMMIT_MESSAGE" value="abrir, leer, escribir, ficheros" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/PY_12_Objetos.py">
@@ -553,12 +578,28 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/nuevo">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_16_ARCHIVOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="165">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/nuevo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
