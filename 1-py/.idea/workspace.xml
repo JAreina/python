@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be70c6e6-dd7f-4d4c-8651-f210d5929546" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2018-07-python-juan.ctb" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-07-python-juan.ctb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,18 +13,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PY_19_ARCHIVOS_CSV.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PY_19_ARCHIVOS_CSV.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-313">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archivo2.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/archivo2.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="PY_17_ARCHIVOS_XML.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/nuevo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -63,16 +74,16 @@
         <option value="$PROJECT_DIR$/venv/PY_15_HERENCIA.py" />
         <option value="$PROJECT_DIR$/venv/PY_16_ARCHIVOS.py" />
         <option value="$PROJECT_DIR$/venv/nuevo.xml" />
-        <option value="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" />
         <option value="$PROJECT_DIR$/venv/colores.json" />
         <option value="$PROJECT_DIR$/venv/PY_18_ARCHIVOS_JSON.py" />
         <option value="$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py" />
+        <option value="$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="591" />
-    <option name="y" value="103" />
+    <option name="x" value="614" />
+    <option name="y" value="78" />
     <option name="width" value="775" />
     <option name="height" value="477" />
   </component>
@@ -116,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PY_19_ARCHIVOS_CSV">
+  <component name="RunManager" selected="Python.PY_17_ARCHIVOS_XML">
     <configuration name="PY_15_HERENCIA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,9 +227,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PY_17_ARCHIVOS_XML" />
         <item itemvalue="Python.PY_19_ARCHIVOS_CSV" />
         <item itemvalue="Python.PY_18_ARCHIVOS_JSON" />
-        <item itemvalue="Python.PY_17_ARCHIVOS_XML" />
         <item itemvalue="Python.PY_16_ARCHIVOS" />
         <item itemvalue="Python.PY_15_HERENCIA" />
       </list>
@@ -340,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531416707747</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="escribir, leer archivos csv">
+      <created>1531420652360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531420652360</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="101" width="775" height="477" extended-state="0" />
+    <frame x="614" y="78" width="775" height="477" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30677292" />
@@ -352,7 +370,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3775216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3775216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -380,7 +398,8 @@
     <MESSAGE value="abrir, leer, escribir, ficheros" />
     <MESSAGE value="ficheros xml" />
     <MESSAGE value="ficheros json leer" />
-    <option name="LAST_COMMIT_MESSAGE" value="ficheros json leer" />
+    <MESSAGE value="escribir, leer archivos csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="escribir, leer archivos csv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py">
@@ -585,16 +604,6 @@
     <entry file="file://$PROJECT_DIR$/venv/archivo.txt" />
     <entry file="file://$PROJECT_DIR$/venv/nuevo_archivo" />
     <entry file="file://$PROJECT_DIR$/venv/archivo" />
-    <entry file="file://$PROJECT_DIR$/venv/nuevo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/nuevo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/archivo.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-433">
@@ -609,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_18_ARCHIVOS_JSON.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -626,13 +628,30 @@
     <entry file="file://$PROJECT_DIR$/venv/archivo.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/nuevo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/archivo2.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-313">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/nuevo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_17_ARCHIVOS_XML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
