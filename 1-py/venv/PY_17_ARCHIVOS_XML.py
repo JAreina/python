@@ -12,3 +12,8 @@ print(iterador)
 
 for i in iterador:
     print(i)
+    print(i.text)
+
+
+for elemento in documento.findall("funcion"):
+    print(elemento.text)
