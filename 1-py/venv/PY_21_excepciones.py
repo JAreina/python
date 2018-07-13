@@ -23,7 +23,7 @@ class MiExcepcion(Exception):
         print("ERROR DICE: ",x)
 
 try :
-    if 4 == 4:
+    if 1:   # cero es False
      raise MiExcepcion("ERROR LANZADO")
 except MiExcepcion:
     print("error")
