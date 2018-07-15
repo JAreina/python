@@ -1,0 +1,19 @@
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+X-Clacks-Overhead: GNU Terry Pratchett
+Via: 1.1 varnish
+Content-Length: 48868
+Accept-Ranges: bytes
+Date: Sun, 15 Jul 2018 15:48:45 GMT
+Via: 1.1 varnish
+Age: 1763
+Connection: close
+X-Served-By: cache-iad2122-IAD, cache-mad9428-MAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 3, 28
+X-Timer: S1531669725.268213,VS0,VE0
+Vary: Cookie
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
