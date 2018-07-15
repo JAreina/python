@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be70c6e6-dd7f-4d4c-8651-f210d5929546" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2018-07-python-juan.ctb" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-07-python-juan.ctb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="PY_22_EXPRESIONES_REGULARALES.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/PY_22_EXPRESIONES_REGULARALES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="27" column="1" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="435">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -388,17 +387,23 @@
       <option name="project" value="LOCAL" />
       <updated>1531500748343</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="expresiones regulares">
+      <created>1531500865234</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1531500865234</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="51" width="977" height="717" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24188481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24188481" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57921636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57921636" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4787053" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,14 +441,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="expresiones regulares" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/PY_20_hilos.py">
+    <entry file="file://$PROJECT_DIR$/venv/PY_22_EXPRESIONES_REGULARALES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PY_20_hilos.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_19_ARCHIVOS_CSV.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -705,16 +711,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/PY_22_EXPRESIONES_REGULARALES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="27" column="1" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="435">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>
