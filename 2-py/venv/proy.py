@@ -1,4 +1,5 @@
 import urllib.request as request
+import urllib.request as urlopen
 import os
 from bs4 import BeautifulSoup
 
@@ -40,3 +41,16 @@ soup = BeautifulSoup(sitio)
 print(soup)
 descripcion = soup.find('meta',attrs={'name':'description'})
 print("DESCRIPCION:",descripcion.get('content'))
+
+
+
+# TITLE
+print("\n :::::::::::::::: obtener title ::::::::::::::::. \n")
+sitio = request.urlopen(url2)
+
+s = BeautifulSoup(sitio,"html.parser")
+print(s.html.head.title.string)
+
+print("\n :::::::::::::::: obtener etiqueta title y contenido ::::::::::::::::. \n")
+titulo = soup.find("title")
+print(titulo)
