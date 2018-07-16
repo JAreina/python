@@ -1,5 +1,7 @@
 import urllib.request as request
 import os
+from bs4 import BeautifulSoup
+
 # VERIFICAR HTTPS
 
 req = request.Request('http://python.org')
@@ -23,3 +25,18 @@ archivo.write(str(meta) )
 archivo.close()
 sitio.close()
 print("tamaño archivo 'http.txt': ",os.stat("http.txt").st_size)
+
+
+
+# www
+
+sitio = request.urlopen(url2)
+print(sitio.geturl())
+
+
+#meta description
+
+soup = BeautifulSoup(sitio)
+print(soup)
+descripcion = soup.find('meta',attrs={'name':'description'})
+print("DESCRIPCION:",descripcion.get('content'))
