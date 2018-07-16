@@ -6,14 +6,14 @@ X-Clacks-Overhead: GNU Terry Pratchett
 Via: 1.1 varnish
 Content-Length: 48868
 Accept-Ranges: bytes
-Date: Mon, 16 Jul 2018 17:29:51 GMT
+Date: Mon, 16 Jul 2018 17:44:36 GMT
 Via: 1.1 varnish
-Age: 205
+Age: 1091
 Connection: close
-X-Served-By: cache-iad2138-IAD, cache-mad9432-MAD
+X-Served-By: cache-iad2138-IAD, cache-mad9450-MAD
 X-Cache: HIT, HIT
-X-Cache-Hits: 6, 1
-X-Timer: S1531762192.551275,VS0,VE1
+X-Cache-Hits: 6, 2
+X-Timer: S1531763077.623350,VS0,VE0
 Vary: Cookie
 Strict-Transport-Security: max-age=63072000; includeSubDomains
 

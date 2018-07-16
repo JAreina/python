@@ -2,6 +2,7 @@ import urllib.request as request
 import urllib.request as urlopen
 import os
 from bs4 import BeautifulSoup
+import re
 
 # VERIFICAR HTTPS
 
@@ -64,3 +65,10 @@ sou = BeautifulSoup(sitio,"html.parser")
 palabras_claves = sou.find('meta',attrs={'name':'keywords'})
 print("KEYWORDS:",palabras_claves.get('content'))
 
+lista = palabras_claves.get("content").split()
+print(lista)
+
+
+for palabra in lista :
+     # cuantas veces aparece cada palabra en la pagina
+    print(palabra ,len(sou.findAll(text=re.compile(palabra))))
