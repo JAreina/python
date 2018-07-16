@@ -54,3 +54,13 @@ print(s.html.head.title.string)
 print("\n :::::::::::::::: obtener etiqueta title y contenido ::::::::::::::::. \n")
 titulo = soup.find("title")
 print(titulo)
+
+
+
+# obtener palabras claves
+sitio = request.urlopen(url2)
+sou = BeautifulSoup(sitio,"html.parser")
+
+palabras_claves = sou.find('meta',attrs={'name':'keywords'})
+print("KEYWORDS:",palabras_claves.get('content'))
+
