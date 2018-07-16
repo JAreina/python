@@ -59,6 +59,7 @@ print(titulo)
 
 
 # obtener palabras claves
+print("\n :::::::::::::::: PALABRAS CLAVE ::::::::::::::::. \n")
 sitio = request.urlopen(url2)
 sou = BeautifulSoup(sitio,"html.parser")
 
@@ -72,3 +73,14 @@ print(lista)
 for palabra in lista :
      # cuantas veces aparece cada palabra en la pagina
     print(palabra ,len(sou.findAll(text=re.compile(palabra))))
+
+#    atributo alt
+print("\n :::::::::::::::: IMAGENES ::::::::::::::::. \n")
+sitio = request.urlopen(url2)
+sou = BeautifulSoup(sitio,"html.parser")
+cont = 0
+for img in sou.findAll('img') :
+     # cuantas veces aparece cada palabra en la pagina
+    print("imagen " ,cont, ":", img["src"])
+    print("alt", cont, ":",img.get("alt","no tiene"))
+    cont +=1
