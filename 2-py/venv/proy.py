@@ -127,3 +127,77 @@ for enlace in enlaces[:10]:
     peticion = request.urlopen(enlace)
 
     print(enlace , "--> status", peticion.code)
+
+
+print("\n :::::::::::::::: encontrar archivos en sistema operativo ::::::::::::::::. \n")
+
+for archivo in os.listdir('/home/juan/PycharmProjects/2-py/venv'):
+    if ( archivo.endswith(".txt")):
+        print("encontrado", os.path.join('/home/juan/PycharmProjects/2-py/venv',archivo))
+
+
+print("\n :::::::::::::::: favicon ::::::::::::::::. \n")
+
+url3 = "http://python.org"
+sitio = request.urlopen(url3)
+
+sou = BeautifulSoup(sitio,"html.parser")
+
+icono_enlace = sou.find('link',rel='icon')
+print(icono_enlace)
+link = url3+"/"+icono_enlace['href']
+icono = request.urlopen(link)
+
+
+with open("test.ico","wb") as ico :
+    try:
+        ico.write(icono.read())
+        print("hecho")
+    except:
+        print("ERRORR")
+sitio.close()
+
+print("\n :::::::::::::::: google analytics ::::::::::::::::. \n")
+url3 = "http://python.org"
+sitio = request.urlopen(url3)
+
+sou = BeautifulSoup(sitio,"html.parser")
+if( sou.findAll(text=re.compile("google-analytics"))):
+    print("tiene google analytics")
+else :
+    print("NO tiene google analytics")
+sitio.close()
+
+
+print("\n :::::::::::::::: IDIOMA::::::::::::::::. \n")
+url3 = "http://python.org"
+sitio = request.urlopen(url3)
+
+sou = BeautifulSoup(sitio,"html.parser")
+idioma = sou.find("html")['lang']
+print(idioma)
+
+sitio.close()
+
+print("\n :::::::::::::::: charset ::::::::::::::::. \n")
+url3 = "http://python.org"
+sitio = request.urlopen(url3)
+
+sou = BeautifulSoup(sitio,"html.parser")
+caracteres = sou.find("meta")['charset']
+print(caracteres)
+
+info = sitio.info()
+
+print(info)
+
+sitio.close()
+
+
+print("\n :::::::::::::::: viewport ::::::::::::::::. \n")
+url3 = "http://python.org"
+sitio = request.urlopen(url3)
+
+sou = BeautifulSoup(sitio,"html.parser")
+META =  sou.find('meta',attrs={'name': 'viewport'})
+print("VIEWPORT", META.get("content"))

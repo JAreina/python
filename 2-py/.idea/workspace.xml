@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947c096b-e77c-4e2e-8d2c-f1743a47e1f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/http.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/http.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/proy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/proy.py" afterDir="false" />
     </list>
@@ -21,13 +20,18 @@
       <file leaf-file-name="proy.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/proy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+            <state relative-caret-position="59">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/test.ico">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="http.txt" pinned="false" current-in-tab="false">
@@ -59,8 +63,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
-    <option name="y" value="59" />
+    <option name="x" value="619" />
+    <option name="y" value="55" />
     <option name="width" value="865" />
     <option name="height" value="632" />
   </component>
@@ -185,21 +189,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531763468556</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="revisar enlaces , revisar h1 de la página">
+      <created>1531924551098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531924551098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="59" width="865" height="632" extended-state="0" />
+    <frame x="619" y="55" width="865" height="632" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914822" visible="true" weight="0.28232503" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32914045" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21118012" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32712215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.68115944" />
       <window_info id="Structure" order="1" sideWeight="0.5008518" side_tool="true" weight="0.24921466" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34591195" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3457557" />
       <window_info id="Favorites" order="2" sideWeight="0.5008518" side_tool="true" weight="0.24921466" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -220,7 +231,8 @@
     <MESSAGE value="obtener keywords de un sitio" />
     <MESSAGE value="contar cuantas veces aparecen keywords de un sitio" />
     <MESSAGE value="IMAGEENS SITIO" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMAGEENS SITIO" />
+    <MESSAGE value="revisar enlaces , revisar h1 de la página" />
+    <option name="LAST_COMMIT_MESSAGE" value="revisar enlaces , revisar h1 de la página" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/proy.py">
@@ -268,10 +280,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/test.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/proy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        <state relative-caret-position="59">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
