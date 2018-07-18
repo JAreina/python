@@ -38,12 +38,12 @@ print(sitio.geturl())
 
 #meta description
 
-soup = BeautifulSoup(sitio)
+soup = BeautifulSoup(sitio,"html.parser")
 print(soup)
 descripcion = soup.find('meta',attrs={'name':'description'})
 print("DESCRIPCION:",descripcion.get('content'))
 
-
+sitio.close()
 
 # TITLE
 print("\n :::::::::::::::: obtener title ::::::::::::::::. \n")
@@ -56,7 +56,7 @@ print("\n :::::::::::::::: obtener etiqueta title y contenido ::::::::::::::::. 
 titulo = soup.find("title")
 print(titulo)
 
-
+sitio.close()
 
 # obtener palabras claves
 print("\n :::::::::::::::: PALABRAS CLAVE ::::::::::::::::. \n")
@@ -74,6 +74,8 @@ for palabra in lista :
      # cuantas veces aparece cada palabra en la pagina
     print(palabra ,len(sou.findAll(text=re.compile(palabra))))
 
+sitio.close()
+
 #    atributo alt
 print("\n :::::::::::::::: IMAGENES ::::::::::::::::. \n")
 sitio = request.urlopen(url2)
@@ -84,3 +86,44 @@ for img in sou.findAll('img') :
     print("imagen " ,cont, ":", img["src"])
     print("alt", cont, ":",img.get("alt","no tiene"))
     cont +=1
+
+
+
+sitio.close()
+
+
+print("\n :::::::::::::::: h1 ::::::::::::::::. \n")
+sitio = request.urlopen(url2)
+sou = BeautifulSoup(sitio,"html.parser")
+
+for h1 in sou.find_all('h1') :
+     # cuantas veces aparece cada palabra en la pagina
+    print("H1 : "  ":", h1)
+    print(h1.get("class", "NO TIENE CLASE"))
+
+print("TOTAL H1 :", len(sou.find_all('h1')))
+
+sitio.close()
+
+
+print("\n :::::::::::::::: enlaces ::::::::::::::::. \n")
+sitio = request.urlopen(url2)
+enlaces = []
+sou = BeautifulSoup(sitio,"html.parser")
+elementos = sou.select('a')
+
+for a in elementos :
+    enlac = a.get('href')
+    print("link : "  ":", enlac)
+    if enlac.startswith('http') :
+
+        enlaces.append(enlac)
+
+print("enlaces  :", enlaces)
+print("total enlaces :" , len(enlaces))
+sitio.close()
+
+for enlace in enlaces[:10]:
+    peticion = request.urlopen(enlace)
+
+    print(enlace , "--> status", peticion.code)
