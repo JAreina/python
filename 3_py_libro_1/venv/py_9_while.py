@@ -35,7 +35,8 @@ while x < count:
  z = 0
  print("1 --->" ,z)
  while z < 11:
-  z= z+ 1
-  x = x + 1
-  print("2 -->",z)
-  print("2 -->" ,x)
+    z= z+ 1
+
+    print("2 -->",z)
+    print("2 -->" ,x)
+ x = x + 1
