@@ -25,3 +25,17 @@ while (counter > 0):
  counter = counter - 10
 else:
  print('Y is no longer greater than zero')
+
+
+print("  \n ANIDADOS  :::::::::\n")
+count = 10
+x = 0
+while x < count:
+
+ z = 0
+ print("1 --->" ,z)
+ while z < 11:
+  z= z+ 1
+  x = x + 1
+  print("2 -->",z)
+  print("2 -->" ,x)
