@@ -13,6 +13,6 @@ print("entero + flotante", entero + flotante)
 
 a = b = 10.10
 a = a - .10
-
+#JAreina
 print(a , id(a))
 print(b, id(b))

@@ -71,5 +71,26 @@ def moreEmployee(name, *other):
   print(var)
  return
 
-
+#JAreina
 moreEmployee("Mark Lassoff", "Founder", "9-1-2009", "206")
+
+
+
+print("\n  return   ::::::::::::::::\n")
+
+def calculateDogYears(humanYears):
+ dogYears= humanYears * 7
+ print("Dog Years:", dogYears)
+ return
+
+
+print(calculateDogYears(9.5))
+
+
+
+def calculateDogYears2(humanYears):
+ dogYears= humanYears * 7
+ return dogYears
+
+myDogYears = calculateDogYears2(9.5)
+print("AÑOS PERROS:", myDogYears)
