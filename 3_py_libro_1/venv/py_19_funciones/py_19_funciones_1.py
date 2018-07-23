@@ -94,3 +94,10 @@ def calculateDogYears2(humanYears):
 
 myDogYears = calculateDogYears2(9.5)
 print("AÑOS PERROS:", myDogYears)
+
+
+def addThese(a, b):
+ return a + b
+
+bb = addThese(5000,4000)
+print(bb)
