@@ -13,3 +13,5 @@ a = set([1,2,3,4,1,2,3,4])
 print(a)
 
 print(7 in a)
+
+#JAreina
