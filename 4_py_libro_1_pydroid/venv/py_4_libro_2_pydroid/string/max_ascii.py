@@ -1,0 +1,16 @@
+str1 = "abcdef"
+print(ord("a"))
+print(ord("b"))
+print(ord("c"))
+print(ord("d"))
+print(ord("e"))
+print(ord("f"))
+print(max(str1))
+str2 = "hello!"
+print(ord("h"))
+print(ord("e"))
+print(ord("l"))
+print(ord("l"))
+print(ord("o"))
+print(ord("!"))
+print(max(str2))
