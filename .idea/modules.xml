@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/4_py_libro_2/.idea/4_py_libro_2.iml" filepath="$PROJECT_DIR$/4_py_libro_2/.idea/4_py_libro_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
     </modules>
   </component>
