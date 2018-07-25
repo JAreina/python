@@ -62,8 +62,17 @@ print(x)
 x.remove(2222)
 print(x)
 
-print( 2 in x)
+bb = x.pop()
+print("pop : ",bb)
+print(x)
 
+print("esta el valor 2 en lista ? ", 2 in x)
 
+del x[0]
+
+x.sort()
+print("Sort", x)
+
+print(x)
 for aa in x :
     print(aa)
