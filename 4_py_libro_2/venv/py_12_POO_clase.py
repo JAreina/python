@@ -1,7 +1,7 @@
 """sh module. Contains classes Shape, Square and Circle"""
 class Shape():
         """Shape class: has method move"""
-        def __init__(self, x, y):
+        def __init__(self, x, y):     #  CONSTRUCTOR 
             self.x = x
             self.y = y
         def move(self, deltaX, deltaY):
