@@ -100,3 +100,4 @@ numeroComplejo = 232+2j
 print( numeroComplejo.real, numeroComplejo.imag)
 
 print(3 + 2j - (4+4j)) #(-1-2j)
+print((1+2j) * (3+4j))#(-5+10j)
