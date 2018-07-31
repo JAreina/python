@@ -60,11 +60,9 @@ print(x)
 y = max(x)
 print(y)
 print(min(x))
-x.append(1000)
-print(x)
 
-i = x.index(1000)
-print(i)
+
+
 
 x.insert(0,2222)
 print(x)
@@ -94,5 +92,15 @@ x[len(x):] = [5, 6, 7]
 print(x)   #[1, 2, 3, 4, 5, 6, 7]
 x[:0] = [-1, 0]
 print(x)  #[-1, 0, 1, 2, 3, 4, 5, 6, 7]
-x[1:-1] = []
+x[1:-1] = [] #entre el primer elemento y el ultimo elemento borra
 print(x)
+
+
+print("\n APPEND   ::::::::::::\n")
+
+x.append(1000)
+print(x)
+
+print("\n  INDEX :::::::::::::::\n")
+i = x.index(1000)
+print(i)
