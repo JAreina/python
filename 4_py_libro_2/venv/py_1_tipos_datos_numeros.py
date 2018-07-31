@@ -128,3 +128,11 @@ representa un valor vacío, por ejemplo el retorno de una función que no retorn
 print(not None)
 print(None)
 
+
+
+''' input()'''
+
+inn1 = input("di una numero")
+print(type(inn1))
+inn2 = input("di otro numero")
+print(type(int(inn2)))
