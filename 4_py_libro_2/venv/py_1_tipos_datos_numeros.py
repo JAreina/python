@@ -9,6 +9,8 @@ Integers—1, –3, 42, 355, 888888888888888, –7777777777
 
 import math
 
+import cmath
+
 a = 4 + 4 * 10
 print(a)
 b = a / 3
@@ -94,6 +96,11 @@ encountered, with n having the same form as a Python integer or float. j is, of 
 standard engineering notation for the imaginary number equal to the square root of
 –1
 
+
+ functions, which can operate on complex numbers, are provided in
+the cmath module:
+acos, acosh, asin, asinh, atan, atanh, cos, cosh, e, exp, log, log10,
+pi, sin, sinh, sqrt, tan, tanh.
 '''
 
 numeroComplejo = 232+2j
@@ -101,3 +108,23 @@ print( numeroComplejo.real, numeroComplejo.imag)
 
 print(3 + 2j - (4+4j)) #(-1-2j)
 print((1+2j) * (3+4j))#(-5+10j)
+
+
+
+print(cmath.sqrt(-1))
+
+
+'''
+The None value
+
+In addition to standard types such as strings and numbers, Python has a special basic
+data type that defines a single special data object called None
+
+representa un valor vacío, por ejemplo el retorno de una función que no retorna nada
+
+'''
+
+
+print(not None)
+print(None)
+
