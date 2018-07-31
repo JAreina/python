@@ -1,5 +1,7 @@
 '''
-puede incluir:
+
+LISTAS SON COMO LOS ARRAYS PERO MÁS FLEXIBLES Y PODEROSOS
+puede incluir DIFERENTES TIPOS DE ELEMENTOS :
 strings, tuples,
 lists, dictionaries, functions, file objects, and any type of number
 '''
@@ -7,6 +9,7 @@ lists, dictionaries, functions, file objects, and any type of number
 a = []
 b = ["a", "NO", 1, 2.2, True, {"b": 1000}, (1,2,3,4)]
 print(b)
+print(len(b))
 
 
 '''
@@ -27,6 +30,12 @@ print(x[0:3])#['first', 'second', 'third']
 print( x[-2:-1])#['third']
 print( x[:3])#['first', 'second', 'third']
 print( x[-2:])#['third', 'fourth']
+
+
+print("\n x[:]  ::::::::::::::::\n")
+yy = x[:]
+print(x)
+print(yy)
 
 
 
@@ -76,3 +85,14 @@ print("Sort", x)
 print(x)
 for aa in x :
     print(aa)
+
+
+print("\n MODIFICAR LISTAS :::::::::::::::\n")
+
+x = [1, 2, 3, 4]
+x[len(x):] = [5, 6, 7]
+print(x)   #[1, 2, 3, 4, 5, 6, 7]
+x[:0] = [-1, 0]
+print(x)  #[-1, 0, 1, 2, 3, 4, 5, 6, 7]
+x[1:-1] = []
+print(x)
