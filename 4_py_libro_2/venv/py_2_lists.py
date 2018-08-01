@@ -101,6 +101,81 @@ print("\n APPEND   ::::::::::::\n")
 x.append(1000)
 print(x)
 
+
+x = [1, 2, 3, 4]
+y = [5, 6, 7]
+x.append(y)
+print(x)#[1, 2, 3, 4, [5, 6, 7]]
+
 print("\n  INDEX :::::::::::::::\n")
-i = x.index(1000)
+i = x.index(1)
 print(i)
+
+print("\n  EXTEND :::::::::::::::\n")
+x = [1, 2, 3, 4]
+y = [5, 6, 7]
+x.extend(y)
+print(x) #[1, 2, 3, 4, 5, 6, 7]
+
+
+print("\n  INSERT :::::::::::::::\n")
+x = [1, 2, 3]
+x.insert(2, "hello")
+print(x) #[1, 2, 'hello', 3]
+x.insert(0, "start") # EN LA POSICION CERO INSERTA ANTES DE LA POSICION
+x.insert(1,"antes del uno")
+print(x) #['start', 1, 2, 'hello', 3]
+
+x.insert(-1, "en -1")
+print(x)
+
+print("\n DEL    ::::::::::::\n")
+
+del x[0]
+print(x)
+del x[:2]
+print(x)
+
+print("\n REMOVE    ::::::::::::\n")
+
+x = [1, 2, 3, 4, 3, 5]
+x.remove(3)
+print(x) #[1, 2, 4, 3, 5]
+x.remove(3)
+print(x) #[1, 2, 4, 5]
+
+print("\n REVERSE   ::::::::::::\n")
+x = [1, 3, 5, 6, 7]
+x.reverse()
+print(x)
+
+print("\n sort   ::::::::::::\n")
+x = [3, 8, 4, 0, 2, 1]
+print(x)
+x.sort() #cambia original
+print(x)
+# hacer copia
+
+a = [23,32,1,8,77]
+y = a[:]
+print(a)
+y.sort()
+print(y)
+
+# con string
+x = ["Life", "Is", "Enchanting"]
+print(x)
+x.sort()
+print(x)
+
+try:
+    x = [1, 2, 'hello', 3]
+    x.sort()
+except:
+    print("error de ordenacion")
+
+# ordenar lista de listas
+x = [[3, 5], [2, 9], [2, 3], [4, 1], [3, 2]]
+print(x)
+x.sort()
+print(x)
