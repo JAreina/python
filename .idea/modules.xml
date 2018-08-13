@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/4_py_libro_1_pydroid/.idea/4_py_libro_1_pydroid.iml" filepath="$PROJECT_DIR$/4_py_libro_1_pydroid/.idea/4_py_libro_1_pydroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_py_libro_2/.idea/4_py_libro_2.iml" filepath="$PROJECT_DIR$/4_py_libro_2/.idea/4_py_libro_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_py_libro_2_2/.idea/4_py_libro_2_2.iml" filepath="$PROJECT_DIR$/4_py_libro_2_2/.idea/4_py_libro_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
     </modules>
   </component>

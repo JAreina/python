@@ -2,10 +2,11 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.5 (3_py_libro_1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5 (4_py_libro_2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="4_py_libro_2" />
     <orderEntry type="module" module-name="4_py_libro_1_pydroid" />
+    <orderEntry type="module" module-name="4_py_libro_2_2" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
