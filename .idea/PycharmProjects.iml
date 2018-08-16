@@ -4,12 +4,14 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/4_py_libro_2_2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4_py_libro_2_2/venv" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5 (1-py)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7 (PycharmProjects)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="4_py_libro_2" />
     <orderEntry type="module" module-name="4_py_libro_1_pydroid" />
     <orderEntry type="module" module-name="4_py_libro_2_2" />
+    <orderEntry type="module" module-name="py_5_BASES_DATOS" />
+    <orderEntry type="module" module-name="py_5_bases_de_datos" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
