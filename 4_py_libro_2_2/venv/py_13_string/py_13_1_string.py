@@ -69,3 +69,9 @@ print(unicode_a_with_acute)
 #'á'
 print("\u00E1")
 #'á'
+
+
+
+print("abc\n")
+print("abc\n", end="")
+print("no hay salto de linea despues del segundo abc")
