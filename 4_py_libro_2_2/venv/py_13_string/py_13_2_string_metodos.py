@@ -53,3 +53,9 @@ print("\n   JOIN :::::::::: \n")
 
 gg = "---".join(["a", "b", "c"])
 print(gg)
+
+
+
+print("\n CONVERTIR STRING A NUMERO \n")
+
+
