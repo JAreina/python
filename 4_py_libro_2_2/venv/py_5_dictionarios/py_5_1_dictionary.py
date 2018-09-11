@@ -1,4 +1,5 @@
 '''
+ARRAYS ASOCIATIVOS
 
 sentencia del
 metodos : clear, copy, get, has_key, items, keys,
